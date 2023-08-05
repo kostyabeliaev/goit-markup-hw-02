@@ -1,7 +1,7 @@
 body {
   font-family: var(--primary-fonts);
   color: var(--nav-log-foot-color);
-  background-color: var(--classic-background-color);
+  background-color: var(--primary-wite-color);
 }
 
 :root {
@@ -23,6 +23,8 @@ ul {
   list-style: none;
 }
 
+/*header index*/
+
 .header {
   background-color: var(--primary-wite-color);
 }
@@ -33,10 +35,11 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none
 }
 
 .link-studio {
@@ -45,10 +48,11 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none
 }
 
 .link-nav {
@@ -96,6 +100,10 @@ ul {
   color: var(--brand-color);
 }
 
+.list {
+  list-style: none
+}
+
 /*секція 1*/
 
 .section-one {
@@ -110,7 +118,7 @@ ul {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   /* 107.143% */
   letter-spacing: 1.12px;
 }
@@ -130,6 +138,12 @@ ul {
   cursor: pointer;
 }
 
+.btn-secton-one:hover {
+  background-color: var(--brand-color);
+}
+
+/*сексія 2*/
+
 .title-two {
   color: var(--nav-log-foot-color);
   text-align: center;
@@ -137,7 +151,7 @@ ul {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
@@ -170,9 +184,16 @@ ul {
   background-color: var(--primary-wite-color);
 }
 
+/*секція 3*/
+
+/*секція 4*/
+
+
 .section-four {
-  background-color: var(--classic-background-color);
+  background-color: var(--primary-wite-color);
 }
+
+/*footer*/
 
 .footer {
   background-color: var(--nav-log-foot-color);
@@ -184,10 +205,21 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.footer-content {
+  color: var(--classic-background-color);
+    font-family: var(--primary-fonts);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
 
 .main-portfolio {
@@ -229,7 +261,6 @@ ul {
     cursor: pointer;
 }
 
-.btn-secton-one:hover,
 .btn-portfolio-web-site:hover,
 .btn-portfolio-marketing:hover,
 .btn-portfolio-design:hover,
