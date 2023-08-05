@@ -1,6 +1,6 @@
 body {
   font-family: var(--primary-fonts);
-  color: var(--nav-log-foot-color);
+  color: var(--adress-text-color);
   background-color: var(--primary-wite-color);
 }
 
@@ -138,7 +138,8 @@ ul {
   cursor: pointer;
 }
 
-.btn-secton-one:hover {
+.btn-secton-one:hover,
+.btn-secton-one:focus {
   background-color: var(--brand-color);
 }
 
@@ -190,7 +191,7 @@ ul {
 
 
 .section-four {
-  background-color: var(--primary-wite-color);
+  background-color: var(--classic-background-color);
 }
 
 /*footer*/
