@@ -228,9 +228,9 @@ ul {
 }
 
 .btn-portfolio-all {
-  background: var(--brand-color);
+  background: var(--classic-background-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-  color: var(--primary-wite-color);
+  color: var(--button-color);
   /* Button Text */
     font-family: var(--primary-fonts);
     font-size: 16px;
@@ -249,6 +249,7 @@ ul {
 .btn-portfolio-marketing {
 
   background: var(--classic-background-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
   color: var(--button-color);
     text-align: center;
     /* Button Text */
