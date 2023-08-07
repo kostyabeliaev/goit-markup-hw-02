@@ -87,7 +87,7 @@ ul {
 }
 
 .link-address:hover,
-.link-adress:focus {
+.link-address:focus {
   color: var(--brand-color);
 }
 
@@ -117,7 +117,6 @@ ul {
 .btn-secton-one {
   color: var(--primary-wite-color);
   background-color: var(--button-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   /* Button Text */
   font-family: var(--primary-fonts);
   font-size: 16px;
