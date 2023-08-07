@@ -71,7 +71,11 @@ ul {
   color: var(--brand-color);
 }
 
-.link-email {
+.address {
+  font-style: normal
+}
+
+.link-address {
   color: var(--adress-text-color);
   font-family: var(--primary-fonts);
   font-size: 16px;
@@ -82,21 +86,8 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.link-tel {
-  color: var(--adress-text-color);
-  font-family: var(--primary-fonts);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.link-email:hover,
-.link-email:focus,
-.link-tel:hover,
-.link-tel:focus {
+.link-address:hover,
+.link-adress:focus {
   color: var(--brand-color);
 }
 
@@ -193,6 +184,10 @@ ul {
   background-color: var(--classic-background-color);
 }
 
+.li-section-four {
+  background-color: var(--primary-wite-color);
+}
+
 /*footer*/
 
 .footer {
@@ -226,14 +221,8 @@ ul {
   background-color: var(--primary-wite-color);
 }
 
-.btn-portfolio-all,
-.btn-portfolio-web-site,
-.btn-portfolio-app,
-.btn-portfolio-design,
-.btn-portfolio-marketing {
+.btn-portfolio {
   background: var(--classic-background-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   color: var(--button-color);
   /* Button Text */
   font-family: var(--primary-fonts);
@@ -246,16 +235,8 @@ ul {
   cursor: pointer;
 }
 
-.btn-portfolio-web-site:hover,
-.btn-portfolio-web-site:focus,
-.btn-portfolio-marketing:hover,
-.btn-portfolio-marketing:focus,
-.btn-portfolio-design:hover,
-.btn-portfolio-design:focus,
-.btn-portfolio-app:hover,
-.btn-portfolio-app:focus,
-.btn-portfolio-all:hover,
-.btn-portfolio-all:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
   background-color: var(--brand-color);
   color: var(--primary-wite-color);
 }
