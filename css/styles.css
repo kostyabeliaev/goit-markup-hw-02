@@ -33,7 +33,6 @@ ul {
   color: var(--button-color);
   font-family: var(--title-font);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   /* 116.667% */
@@ -44,24 +43,15 @@ ul {
 
 .link-studio {
   color: var(--nav-log-foot-color);
-  font-family: var(--title-font);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
+  
 }
 
 .link-nav {
   color: var(--nav-log-foot-color);
   font-family: var(--primary-fonts);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   /* 150% */
   letter-spacing: 0.32px;
 }
@@ -79,9 +69,7 @@ ul {
   color: var(--adress-text-color);
   font-family: var(--primary-fonts);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   /* 150% */
   letter-spacing: 0.32px;
 }
@@ -107,7 +95,6 @@ ul {
   /* Header 1 */
   font-family: var(--primary-fonts);
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   /* 107.143% */
@@ -120,9 +107,8 @@ ul {
   /* Button Text */
   font-family: var(--primary-fonts);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   /* 150% */
   letter-spacing: 0.64px;
   cursor: pointer;
@@ -140,7 +126,6 @@ ul {
   text-align: center;
   font-family: var(--primary-fonts);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   /* 111.111% */
@@ -152,7 +137,6 @@ ul {
   color: var(--nav-log-foot-color);
   font-family: var(--primary-fonts);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   /* 120% */
@@ -163,9 +147,7 @@ ul {
   color: var(--adress-text-color);
   font-family: var(--primary-fonts);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   /* 150% */
   letter-spacing: 0.32px;
 }
@@ -197,7 +179,6 @@ ul {
   color: var(--classic-background-color);
   font-family: var(--title-font);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   /* 116.667% */
@@ -209,9 +190,7 @@ ul {
   color: var(--classic-background-color);
   font-family: var(--primary-fonts);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   /* 150% */
   letter-spacing: 0.32px;
 }
@@ -226,9 +205,8 @@ ul {
   /* Button Text */
   font-family: var(--primary-fonts);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   /* 150% */
   letter-spacing: 0.64px;
   cursor: pointer;
